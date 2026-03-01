@@ -10,7 +10,10 @@ function DashboardLayout({
   return (
     <div>
         <AppHeader />
-        {children}</div>
+            <div className="p-4 md:p-10 lg:p-20 py-10">
+               {children}
+             </div>
+    </div>
   )
 }
 
